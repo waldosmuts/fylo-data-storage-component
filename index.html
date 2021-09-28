@@ -15,14 +15,36 @@
 </head>
 
 <body>
-
-  <p class="storage-used">You’ve used 815 GB of your storage</p>
-
-  <p class="storage-left">185 GB Left</p>
-
-  0 GB
-  1000 GB
-
+  <main>
+    <div class="container">
+      <div class="card menu">
+        <img class="logo" src="./images/logo.svg" alt="Fylo Logo">
+        <div class="menu-buttons">
+          <button><img src="./images/icon-document.svg" alt="New Document"></button>
+          <button><img src="./images/icon-folder.svg" alt="New Folder"></button>
+          <button><img src="./images/icon-upload.svg" alt="New Upload"></button>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="card info">
+        <p>You’ve used <b><span class="storage-used">815</span> GB</b> of your storage</p>
+        <div class="bar-total">
+          <div class="bar-current">
+            <div class="dot-current"></div>
+          </div>
+        </div>
+        <div class="capacity">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+        <div class="storage-stat">
+          <span class="storage-left">185</span>
+          <p>GB Left</p>
+          <div class="bubble"></div>
+        </div>
+      </div>
+    </div>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/waldosmuts" target="_blank">Waldo Smuts</a>.
